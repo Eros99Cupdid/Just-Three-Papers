@@ -64,6 +64,7 @@ print(f"Jarak 3D: {jarak:.2f} meter")
 titik_asli = [1, 2, 3]
 titik_hasil = sistem.rotate_point(titik_asli, roll=10, pitch=5, yaw=15)
 print(f"Titik setelah rotasi: {titik_hasil}")
+
 📁 Struktur Proyek
 text
 Just-Three-Papers/
@@ -84,6 +85,7 @@ Just-Three-Papers/
 ├── requirements.txt           # Dependensi Python
 ├── LICENSE                    # Lisensi MIT
 └── README.md                  # File ini
+
 📚 Dokumentasi & Pembelajaran
 TP-OCM didokumentasikan melalui tiga pendekatan ("Three Papers"):
 
