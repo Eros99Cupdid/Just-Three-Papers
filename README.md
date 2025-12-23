@@ -66,24 +66,43 @@ titik_hasil = sistem.rotate_point(titik_asli, roll=10, pitch=5, yaw=15)
 print(f"Titik setelah rotasi: {titik_hasil}")
 
 📁 Struktur Proyek
+
 text
+
 Just-Three-Papers/
+
 ├── src/                       # Kode sumber inti
+
 │   ├── core.py                # Implementasi logika TP-OCM
+
 │   ├── rotation.py            # Modul rotasi stabil
+
 │   └── utils.py               # Fungsi pembantu
+
 ├── docs/                      # Dokumentasi lengkap
+
 │   ├── paper_produksi.pdf     # Paper teknis untuk engineer
+
 │   ├── paper_pedagogis.pdf    # Paper untuk pengajaran
+
 │   ├── paper_formal_logic.pdf # Pembuktian logika formal (FOL)
+
 │   └── API_REFERENCE.md       # Referensi API detail
+
 ├── examples/                  # Contoh penggunaan
+
 │   ├── drone_simulation.py    # Simulasi kontrol drone
+
 │   ├── game_character.py      # Rotasi karakter game
+
 │   └── survey_calculation.py  # Perhitungan sudut survey
+
 ├── tests/                     # Unit test
+
 ├── requirements.txt           # Dependensi Python
+
 ├── LICENSE                    # Lisensi MIT
+
 └── README.md                  # File ini
 
 📚 Dokumentasi & Pembelajaran
