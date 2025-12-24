@@ -145,12 +145,18 @@ Silakan baca Panduan Kontribusi untuk detail lebih lanjut.
 📄 Lisensi
 Proyek ini dilisensikan di bawah Lisensi MIT - lihat file LICENSE untuk detailnya.
 
+💡 Lahir dari Kebingungan
+Pada Desember 2025, kejenuhan dengan tekanan tugas yang menumpuk justru memicu serangkaian pertanyaan mendasar: Bagaimana tepatnya bilangan imajiner (i) merepresentasikan rotasi? Mengapa perkalian berulang dengannya membentuk siklus yang kembali ke real?
+
+Pencarian jawaban mengarah pada sebuah prinsip ontologis: bilangan bukan sekadar nilai, melainkan penunjuk tempat. Prinsip ini dimanifestasikan dalam model "Tiga Kertas" (Tri-Planar) yang menjadi fondasi TP-OCM—sebuah sistem untuk memetakan dan menavigasi ruang 3D dengan cara yang lebih intuitif dan efisien daripada metode konvensional.
+awalnya banyak ketidak tahuan banyak belajar dari 0 tentang apa kebutuhan efisiensi aku hanya berfikir sedikit operator itu murah, tapi tiap operator punya murahnya sendiri sendiri tapi dengan evolusi yang bisa aku pecah pecah menjadi hubungan +,-,*,* itu membuatnya sangat murah.
+
 👨‍💻 Penemu
 Nur Rohmat Hidayatulloh - Penemu dan Arsitek Utama TP-OCM.
 
-Konsep lahir di Magelang, 6 Desember 1999.
+Konsep terbentuk Pakualaman, 20 Desember 2025.
 
-Visi: Membuat komputasi 3D yang kuat menjadi lebih mudah diakses dan efisien.
+Visi: Membuat komputasi 3D menjadi lebih efisien.
 
 🙏 Ucapan Terima Kasih
 Kepada semua pendukung awal dan pemberi masukan.
@@ -164,7 +170,7 @@ Laporkan Issue: Gunakan GitHub Issues.
 
 Diskusi: Bergabunglah di [Discord Server] (tautan akan tersedia) atau diskusikan di bagian Discussions GitHub.
 
-Email: Untuk pertanyaan mendalam atau kolaborasi, hubungi: [alamat-email-Anda]
+Email: Untuk pertanyaan mendalam atau kolaborasi, hubungi: eroscupd@gmail.com (B. Indonesia)
 
 Dibuat dengan ❤️ untuk memajuan teknologi yang lebih ringan dan cerdas.
 
@@ -175,5 +181,3 @@ A faster, lighter, and more intuitive 3D rotation solution than quaternions.
 TP-OCM (Tri-Planar Orthogonal Complex Mapping) is a novel mathematical and computational architecture for 3D rotation and navigation. It replaces computationally expensive traditional methods (like 4x4 rotation matrices and Quaternions) with a simple decomposition into three orthogonal complex planes.
 
 ✨ Why TP-OCM? Because it is 40-60% faster in sequential rotation operations, avoids singularities like Gimbal Lock, and is naturally easier to understand through the "Three Papers" analogy.
-
-(The rest of the English translation would follow the same structure as above...)
