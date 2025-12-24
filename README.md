@@ -2,7 +2,9 @@
 Solusi Rotasi 3D yang Lebih Cepat, Ringan, dan Intuitif daripada Quaternion.
 
 https://img.shields.io/badge/License-MIT-yellow.svg
+
 https://img.shields.io/badge/python-3.8+-blue.svg
+
 https://img.shields.io/badge/status-aktif%2520pengembangan-brightgreen
 
 Bahasa Indonesia | English
@@ -170,7 +172,7 @@ Laporkan Issue: Gunakan GitHub Issues.
 
 Diskusi: Bergabunglah di [Discord Server] (tautan akan tersedia) atau diskusikan di bagian Discussions GitHub.
 
-Email: Untuk pertanyaan mendalam atau kolaborasi, hubungi: eroscupd@gmail.com (B. Indonesia)
+Email: Untuk pertanyaan mendalam atau kolaborasi, hubungi: eroscupd@gmail.com
 
 Dibuat dengan ❤️ untuk memajuan teknologi yang lebih ringan dan cerdas.
 
