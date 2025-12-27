@@ -1,208 +1,93 @@
-Baik, mari kita buat struktur **README.md** yang lengkap dan praktis, di mana semua dokumentasi penting ada dalam format Markdown langsung di dalam repositori — tanpa bergantung pada file PDF eksternal.
+# 🌍 EARTH MOTHERSHIP INITIATIVE (TP-OCM PROTOCOL)
+### *From Passive Passengers to Active Crew*
+
+![Project Status](https://img.shields.io/badge/STATUS-PLANETARY%20DEFENSE%20INITIATIVE-red?style=for-the-badge)
+![System Logic](https://img.shields.io/badge/LOGIC-TP--OCM%20V3.0-blue?style=for-the-badge)
+![License Code](https://img.shields.io/badge/CODE_LICENSE-GPLv3-blue?style=for-the-badge)
+![License Docs](https://img.shields.io/badge/DOCS_LICENSE-CC%20BY--SA%204.0-green?style=for-the-badge)
+
+> **"We are not dwellers on a static rock. We are the engineering crew of a Titan-Class Starship moving at 230 km/s through a hostile galaxy. It is time we started acting like it."**
 
 ---
 
-# 📘 **Just-Three-Papers: Tri-Planar Orthogonal Complex Mapping (TP-OCM)**
+## 🚨 THE URGENCY (EXECUTIVE SUMMARY)
 
-Solusi Rotasi 3D yang Lebih Cepat, Ringan, dan Intuitif daripada Quaternion.
+Humanity is suffering from a **Static Bias Delusion**. We believe our planet is a safe, immovable house. Modern astrophysics and the **TP-OCM Framework** prove otherwise:
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![Status: Aktif Pengembangan](https://img.shields.io/badge/status-aktif%20pengembangan-brightgreen)](https://github.com/Eros99Cupdid/Just-Three-Papers)
+1.  **The Context (Universal Drift):** Our Solar System is a high-velocity projectile spiraling through a chaotic Interstellar Medium. We are surfing the Sun's bow shock.
+2.  **The Vessel (Earth):** Earth is not "land". It is a **Titan-Class Closed-Loop Life Support System (Mothership)**. It is the only shield protecting carbon-based life from the cosmic void.
+3.  **The Crisis:** The crew (humanity) has neglected maintenance, destabilized the atmospheric processor, and is currently dismantling the hull for short-term profit.
 
-**Bahasa Indonesia** | [English](#-english)
-
----
-
-## 📖 **Tentang**
-
-TP-OCM (Tri-Planar Orthogonal Complex Mapping) adalah sebuah sistem matematika dan arsitektur komputasi baru untuk rotasi dan navigasi 3D. Sistem ini menggantikan metode tradisional yang mahal secara komputasi (seperti matriks rotasi 4×4 dan Quaternion) dengan dekomposisi ke dalam tiga bidang kompleks ortogonal yang sederhana.
-
-✨ **Mengapa TP-OCM?** Karena sistem ini **40–60% lebih cepat** dalam operasi rotasi sekuensial, **menghindari singularitas** seperti Gimbal Lock, dan secara alami **mudah dipahami** melalui analogi "Tiga Kertas".
+This repository contains the **Blueprints, Philosophical Frameworks, and Mathematical Logic** required to transition our civilization from an extraction-based economy to a **Planetary Stewardship (Maintenance) Economy**.
 
 ---
 
-## 🎯 **Fitur Utama**
+## 📂 REPOSITORY MAP
 
-- ⚡ **Performa Tinggi:** Algoritma inti hanya membutuhkan **12 perkalian & 6 penjumlahan** per rotasi titik.
-- 🧠 **Intuitif:** Konsep dasar divisualisasikan dengan tiga bidang ortogonal (Frontal, Sagittal, Horizontal), membuatnya lebih mudah dipelajari.
-- 🛡️ **Stabil Numerik:** Protokol "Stable Angle Extraction" dan "Taylor Normalization" mencegah pembagian dengan nol dan drift.
-- 🔧 **Multi-Bahasa:** Implementasi tersedia dalam **Python** (prototipe cepat) dan **C++** (untuk sistem embedded).
-- 📚 **Lengkap:** Dilengkapi dengan dokumentasi formal, paper pedagogis, dan contoh aplikasi nyata.
+### 1. 🧠 THE PHILOSOPHY (CORE DOCTRINE)
+*Why we must change our mindset immediately.*
 
----
+* **[PAPER A: The Universal Drift](00_CORE_PHILOSOPHY/Paper_A_Universal_Drift.md)**
+    * *Scope:* Deconstructing the illusion of a static universe. Analysis of the Solar Vortex and the hostile environment outside the Heliosphere.
+* **[PAPER B: Terra-Autarky](00_CORE_PHILOSOPHY/Paper_B_Terra_Autarky.md)**
+    * *Scope:* Redefining humans as "Crew" vs "Passengers". The protocol for maintaining Earth as a generational starship.
 
-## 🚀 **Mulai Cepat**
+### 2. ⚙️ THE ENGINE (TECHNICAL SPECS)
+*The mathematics and physics behind navigation and survival.*
 
-### Prasyarat
-- Python 3.8 atau lebih tinggi
-- Git (untuk mengkloning repositori)
+* **[TP-OCM Grand Logic (FOL)](01_TECHNICAL_SPECS/FOL_Logic_Systems.md)**
+    * *Scope:* The unified First-Order Logic foundation integrating Gauge Theory, Holographic Consistency, and Triadic Logic.
+* **[Navigational Blueprint (-1)](01_TECHNICAL_SPECS/Pedagogis_-1.md)**
+    * *Scope:* The "Pedagogis (-1)" manual for relativistic navigation, cosmic spin ($\Omega$), and the 45-degree exit strategy.
+* **[Autarky Vessel Architecture](01_TECHNICAL_SPECS/Autarky_Vessel_Specs.md)**
+    * *Scope:* Specifications for closed-loop biological systems and energy harvesting (Bussard Ramjets).
 
-### Instalasi
-```bash
-git clone https://github.com/Eros99Cupdid/Just-Three-Papers.git
-cd Just-Three-Papers
-```
+### 3. 🛡️ THE MISSION (EARTH OPERATIONS)
+*Practical steps for planetary defense.*
 
-(Opsional) Buat dan aktifkan virtual environment:
-```bash
-python -m venv venv
-# Di Windows: .\venv\Scripts\activate
-# Di macOS/Linux: source venv/bin/activate
-```
-
-Instal dependensi:
-```bash
-pip install -r requirements.txt
-```
-
-### Penggunaan Dasar (Python)
-```python
-from just_three_papers import TPOCM
-
-# Inisialisasi sistem dengan posisi awal (x₁, x₂, y)
-sistem = TPOCM(x1=10.0, x2=20.0, y=5.0)
-
-# 1. Dapatkan Sudut Orientasi Kanonik (Roll, Pitch, Yaw)
-roll, pitch, yaw = sistem.get_angles()
-print(f"Roll: {roll:.2f}°, Pitch: {pitch:.2f}°, Yaw: {yaw:.2f}°")
-
-# 2. Hitung Jarak Euclidean (R)
-jarak = sistem.get_distance()
-print(f"Jarak 3D: {jarak:.2f} meter")
-
-# 3. Rotasikan sebuah titik dalam ruang 3D
-titik_asli = [1, 2, 3]
-titik_hasil = sistem.rotate_point(titik_asli, roll=10, pitch=5, yaw=15)
-print(f"Titik setelah rotasi: {titik_hasil}")
-```
+* **[Planetary Maintenance Schedule](03_EARTH_OPERATIONS/Planetary_Maintenance_Schedule.md)** *(Active Development)*
+    * *Scope:* Action plans for Carbon Capture, Ocean Regeneration, Albedo Management, and Entropy Reduction.
 
 ---
 
-## 📁 **Struktur Proyek**
+## 🔭 THE TP-OCM FRAMEWORK
 
-```
-Just-Three-Papers/
-├── src/                         # Kode sumber inti
-│   ├── core.py                  # Implementasi logika TP-OCM
-│   ├── rotation.py              # Modul rotasi stabil
-│   └── utils.py                 # Fungsi pembantu
-├── docs/                        # Dokumentasi lengkap (MD)
-│   ├── PAPER_PEDAGOGIS.md       # Paper untuk pengajaran
-│   ├── PAPER_FORMAL_LOGIC.md    # Pembuktian logika formal (FOL)
-│   ├── PAPER_TEKNIS.md          # Paper teknis untuk engineer
-│   └── PAPER_INDUSTRI.md        # Aplikasi industri & kasus penggunaan
-├── examples/                    # Contoh penggunaan
-│   ├── drone_simulation.py      # Simulasi kontrol drone
-│   ├── game_character.py        # Rotasi karakter game
-│   └── survey_calculation.py    # Perhitungan sudut survey
-├── tests/                       # Unit test
-├── requirements.txt             # Dependensi Python
-├── LICENSE                      # Lisensi GPL v3
-└── README.md                    # File ini
-```
+**Three-Paper Orthogonal Complex Mapping (TP-OCM)** is not just a navigation tool; it is a way of perceiving reality.
+
+* **Helical Trajectories:** Recognizing that we never return to the same coordinate twice.
+* **Gauge Invariance:** Maintaining systemic consistency regardless of observation angle.
+* **Dynamic Equilibrium:** The state of balance required for life to persist in a high-entropy universe.
 
 ---
 
-## 📚 **Dokumentasi & Pembelajaran**
+## 🤝 JOIN THE CREW (CONTRIBUTING)
 
-TP-OCM didokumentasikan melalui tiga pendekatan ("Three Papers") dalam format Markdown:
+This is an **Open Source Planetary Defense Initiative**. We need Engineers, Philosophers, Biologists, and Coders.
 
-- 🧪 **[PAPER_TEKNIS.md](docs/PAPER_TEKNIS.md)** – Fokus pada implementasi, benchmark, dan optimasi untuk engineer.
-- 👨‍🏫 **[PAPER_PEDAGOGIS.md](docs/PAPER_PEDAGOGIS.md)** – Penjelasan bertahap dengan analogi visual, cocok untuk pengajar dan pemula.
-- ⚖️ **[PAPER_FORMAL_LOGIC.md](docs/PAPER_FORMAL_LOGIC.md)** – Landasan aksiomatik dan pembuktian matematis yang rigorous.
-- 🏭 **[PAPER_INDUSTRI.md](docs/PAPER_INDUSTRI.md)** – Aplikasi nyata di industri, teknologi, dan embedded systems.
-
-**Mulai dengan [PAPER_PEDAGOGIS.md](docs/PAPER_PEDAGOGIS.md) jika Anda baru mengenal konsep ini.**
+1.  **Fork this Repository:** Take these ideas and adapt them.
+2.  **Submit Pull Requests:** Found a flaw in the logic? Have a better geoengineering strategy? Fix it.
+3.  **Spread the Logic:** Teach others that Earth is a Ship, not a Mine.
 
 ---
 
-## 🔬 **Aplikasi Nyata**
+## ⚖️ LEGAL & DUAL LICENSING STRATEGY
 
-- ✈️ **Kontrol Drone & UAV:** Algoritma ringan untuk flight controller mikrokontroler.
-- 🎮 **Game & Real-Time Graphics:** Rotasi objek dan kamera yang lebih cepat.
-- 📡 **Sensor Fusion & Radar:** Pemrosesan data orientasi berkecepatan tinggi.
-- 🏗️ **Robotika & Navigasi Otonom:** Menghitung orientasi dan arah pergerakan.
-- 📊 **Edukasi STEM:** Alat mengajar transformasi geometri 3D yang lebih mudah dicerna.
+**Copyright (C) 2025 [REDACTED/THE ARCHITECT]**
 
----
+This project employs a **Dual Licensing Strategy** to ensure both the software logic and the philosophical knowledge remain free and open for the survival of the species.
 
-## 🤝 **Berkontribusi**
+### 1. SOFTWARE & LOGIC (GPLv3)
+All source code, scripts (Python, etc.), and formal logic definitions (FOL) contained in this repository are licensed under the **GNU General Public License v3.0**.
+* *You may copy, distribute, and modify the software as long as you track changes/dates in source files.*
+* *Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.*
 
-Kontribusi Anda sangat diterima! Baik itu melaporkan bug, menyarankan fitur, atau mengirim kode.
+### 2. KNOWLEDGE & DOCUMENTATION (CC BY-SA 4.0)
+All manifestos, papers (Paper A, Paper B), educational materials, and diagrams are licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License**.
+* **Attribution:** You must give appropriate credit to **The Architect**, provide a link to the license, and indicate if changes were made.
+* **ShareAlike:** If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-1. Fork repositori ini.
-2. Buat branch untuk fitur Anda (`git checkout -b fitur/ajaib`).
-3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur ajaib'`).
-4. Push ke branch (`git push origin fitur/ajaib`).
-5. Buat Pull Request.
+> **"Code protects the machine. Knowledge protects the crew. Both must remain free."**
 
 ---
 
-## 📜 **Lisensi**
-
-TP-OCM menggunakan model lisensi terpisah untuk setiap jenis konten:
-
-- 🖥️ **Kode Sumber** (`/src/`, `/examples/`) – **GNU GPL v3**  
-  Bebas digunakan, dimodifikasi, didistribusikan. Turunan harus tetap open source.
-- 📚 **Materi Pendidikan** (`/docs/PAPER_PEDAGOGIS.md`) – **CC BY 4.0**  
-  Bebas diajarkan, diterjemahkan, dibagikan dengan atribusi.
-- 🧠 **Paper Logika Formal** (`/docs/PAPER_FORMAL_LOGIC.md`) – **CC BY-ND 4.0**  
-  Bebas dikutip, dirujuk, tidak boleh dimodifikasi.
-- 🏭 **Paper Teknis & Industri** (`/docs/PAPER_TEKNIS.md`, `/docs/PAPER_INDUSTRI.md`) – **CC BY-SA 4.0**  
-  Bebas digunakan dengan atribusi dan lisensi turunan yang sama.
-
----
-
-## 👨‍💻 **Penemu**
-
-**Nur Rohmat Hidayatulloh** – Penemu dan Arsitek Utama TP-OCM.  
-Konsep terbentuk di Pakualaman, 20 Desember 2025.  
-Visi: *Membuat komputasi 3D menjadi lebih efisien dan manusiawi.*
-
----
-
-## 💬 **Dukungan & Komunitas**
-
-Jika Anda memiliki pertanyaan tentang:
-- Penggunaan komersial kode TP-OCM
-- Penggunaan materi pendidikan di institusi
-- Pengutipan paper formal di publikasi
-
-Hubungi: **eroscupd@gmail.com**
-
----
-
-**Dibuat dengan ❤️ untuk memajukan teknologi yang lebih ringan, efisien, dan mudah dipahami.**
-
----
-
-## 🇬🇧 **ENGLISH VERSION**
-
-*(The entire README will be translated into English in a separate branch or file, following the same structure above.)*
-
----
-
-## 🧠 **Langkah Selanjutnya**
-
-Library ini siap digunakan. Jika Anda ingin:
-- 📦 **Membuat paket PIP** – aku bisa bantu setup `setup.py` dan PyPI.
-- 🌐 **Membuat website dokumentasi** – aku bisa generate dari Markdown ke HTML.
-- 🔄 **Integrasi dengan Unity/Unreal** – aku bisa buat plugin dasar.
-
-Cukup beri tahu di Issue atau email.
-
----
-
-## 📌 **Catatan Penting**
-
-> Semua paper dan dokumentasi disimpan dalam format **Markdown** agar mudah diakses, di-edit, dan di-render di GitHub. Tidak perlu PDF untuk memulai.
-
----
-
-**Terima kasih telah menjelajahi TP-OCM!**  
-Jika sistem ini membantu Anda, pertimbangkan untuk memberikan ⭐ di GitHub dan membagikannya kepada yang lain.
-
----
-
-Let me know if you'd like me to also draft the four Markdown paper files (`PAPER_PEDAGOGIS.md`, `PAPER_FORMAL_LOGIC.md`, `PAPER_TEKNIS.md`, `PAPER_INDUSTRI.md`) to complete the documentation structure.
+**[ SYSTEM STATUS: AWAITING CREW WAKE-UP SIGNAL... ]**
