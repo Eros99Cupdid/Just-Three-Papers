@@ -77,8 +77,8 @@ class TPOCM:
         # y' = y cos - x2 sin
         # x2'' = y sin + x2 cos
         cp, sp = math.cos(d_pitch), math.sin(d_pitch)
-        y_b  = y_a * cp - x2_a * sp
-        x2_b = y_a * sp + x2_a * cp
+        x2_b  = x2_a * cp - y_a * sp
+        y_b = x2_a * sp + y_a * cp
         x1_b = x1_a
 
         # 3. Rotasi ROLL (Sumbu Longitudinal x2)
